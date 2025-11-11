@@ -1,0 +1,34 @@
+==========================================================
+                  🧩 POLYMORPHISM IN C++
+==========================================================
+
+🔹 Definition: Polymorphism means "many forms".
+
+•It allows the same function or operator to behave 
+ differently based on the type of objects or arguments used.
+
+•It helps achieve flexibility and reusability in 
+ Object-Oriented Programming (OOP).
+---------------------------------------------------------
+🔸 TYPES OF POLYMORPHISM:
+----------------------------------------------------------
+1️⃣  Compile-time Polymorphism (Static Binding):it is a type of polymorphism where the function or operator to be executed is determined at compile time.
+     ➤ Achieved using:
+        1) Function Overloading: • it is a feature in C++ where two or more functions can have the same name but different parameter lists (different type or number of parameters).
+                                 • The compiler decides which function to call based on the arguments passed. This is a type of compile-time polymorphism.
+                                 • It allows the same function name or operator to behave differently depending on the arguments or types passed.
+                                 • This is decided by the compiler before the program runs.
+  
+        2) Operator Overloading: • it is allows you to define custom behavior for operators (like +, -, *, ==) for user-defined types such as classes.
+                                 • This is another form of compile-time polymorphism, where operators behave differently depending on the objects they operate on.
+
+2️⃣  Run-time Polymorphism (Dynamic Binding):• it is a type of polymorphism where the function to be executed is determined at runtime, rather than at compile time.
+                                            • it allows objects of different classes related by inheritance to behave differently when accessed through a common base class interface.
+                                            • Achieved through inheritance and virtual functions.
+     ➤ Achieved using:
+        1) Virtual Functions:  • it is member function in a base class that is declared with the keyword virtual.
+                               • it allows derived classes to override it and ensures that the correct function is called at runtime, depending on the type of the object being pointed to, rather than the type of the pointer.
+                               
+        2) Inheritance:        • allows a class (derived class) to acquire the properties and behaviors (data members and functions) of another class (base class).
+                               • It promotes code reusability and establishes a relationship between classes.
+
